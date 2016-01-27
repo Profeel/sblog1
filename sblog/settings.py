@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -61,7 +62,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sblog',
         'USER': 'root',
-        'PASSWORD': '123456',
+        'PASSWORD': 'wangqi',
         'HOST': 'localhost',
         'PORT': '3306',
     }
